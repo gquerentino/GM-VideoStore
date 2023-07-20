@@ -1,0 +1,33 @@
+/*
+https://dribbble.com/shots/15109777-Movie-Streaming-Dashboard
+*/
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 14rem;
+    height: 100vh;
+    margin-left: 25px;
+    border-right: 1px solid gray;
+}
+
+.username{
+    margin: 15px 15px 30px 0px;
+}
+
+.mainItens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.mainItens ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.mainItens ul li {
+    margin-bottom: 10px;
+}

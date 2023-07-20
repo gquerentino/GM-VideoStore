@@ -23,6 +23,15 @@ const Homepage = () => {
                             +
                         </button>
                     </div>
+                    <div className="now-playing">
+                        <div className="now-playing-menu">
+                            <h2>Now Playing</h2>
+                            <div className="now-playing-menu-buttons">
+                            <button>&lt;</button>
+                            <button>&gt;</button>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
             </div>

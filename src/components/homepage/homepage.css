@@ -69,3 +69,33 @@
     color: white;
     margin: 10px 10px 70px 5px;
 }
+
+.now-playing{
+    display: flex;
+    height: 50%;
+    max-width: 100%;
+    margin: 20px 50px 10px 50px;
+}
+
+.now-playing h2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.now-playing-menu {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.now-playing-menu button{
+    border: 1px solid #e6eeff;
+    color: #727b96;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 #ccc;
+}
+

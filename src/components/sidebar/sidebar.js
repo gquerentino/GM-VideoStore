@@ -10,35 +10,35 @@ const Sidebar = () => {
             </div>
             <div className="mainItens">
                 <div className="mainIcons">
-                    <h4>Menu</h4>
+                    <h4>MENU</h4>
                     <ul>
-                        <li><AiFillHome /> Home</li>
-                        <li><AiFillSafetyCertificate /> Community</li>
-                        <li><AiFillCompass /> Discover</li>
-                        <li><AiFillDollarCircle /> Awards</li>
+                        <a href="#"><li><AiFillHome /> Home</li></a>
+                        <a href="#"><li><AiFillSafetyCertificate /> Community</li></a>
+                        <a href="#"><li><AiFillCompass /> Discover</li></a>
+                        <a href="#"><li><AiFillDollarCircle /> Awards</li></a>
                     </ul>
                 </div>
                 <div className="libraryIcons">
-                    <h4>Library</h4>
+                    <h4>LIBRARY</h4>
                     <ul>
-                        <li><AiFillClockCircle /> Recent</li>
-                        <li><AiFillStar /> Top Rated</li>
-                        <li><AiOutlineDownload /> Downloaded</li>
+                        <a href="#"><li><AiFillClockCircle /> Recent</li></a>
+                        <a href="#"><li><AiFillStar /> Top Rated</li></a>
+                        <a href="#"><li><AiOutlineDownload /> Downloaded</li></a>
                     </ul>
                 </div>
                 <div className="categoryIcons">
-                    <h4>Category</h4>
+                    <h4>CATEGORY</h4>
                     <ul>
-                        <li><AiOutlineVideoCamera /> TV - Show</li>
-                        <li><AiOutlinePlaySquare /> Movie</li>
-                        <li><AiOutlineFire /> Anime</li>
+                        <a href="#"><li><AiOutlineVideoCamera /> TV - Show</li></a>
+                        <a href="#"><li><AiOutlinePlaySquare /> Movie</li></a>
+                        <a href="#"><li><AiOutlineFire /> Anime</li></a>
                     </ul>
                 </div>
                 <div className="generalIcons">
-                    <h4>General</h4>
+                    <h4>GENERAL</h4>
                     <ul>
-                        <li><AiOutlineSetting /> Settings</li>
-                        <li><AiOutlineLogout /> Log Out</li>
+                        <a href="#"><li><AiOutlineSetting /> Settings</li></a>
+                        <a href="#"><li><AiOutlineLogout /> Log Out</li></a>
                     </ul>
                 </div>
             </div>

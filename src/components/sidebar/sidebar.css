@@ -2,6 +2,8 @@
 https://dribbble.com/shots/15109777-Movie-Streaming-Dashboard
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,10 +52,21 @@ table {
     display: flex;
     flex-direction: column;
     background-color: white;
-    max-width: 14rem;
+    width: 12rem;
+    max-width: 13rem;
     height: 100vh;
-    margin-left: 25px;
-    border-right: 1px solid gray;
+    margin-left: 15px;
+    border-right: 2px solid #ebf1ff;
+}
+
+.mainItens a{
+    text-decoration: none;
+    color: #76869d;
+}
+
+.mainItens li:hover{
+  border-right: 3px solid red;
+  color: #e71d60;
 }
 
 .sidebar h4 {
@@ -61,22 +74,38 @@ table {
 }
 
 .username{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    margin: 15px 15px 30px 0px;
+    color: #2f3d64;
+    margin: 50px 15px 30px 10px;
 }
 
 .mainItens{
+    font-family: 'Open Sans', sans-serif;
     display: flex;
+    margin-left: 10px;
     flex-direction: column;
-    gap: 40px;
-    font-size: 20px;
+    gap: 25px;
 }
+
+.mainItens h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #9aa6b7;
+}
+
 
 .mainItens ul {
     list-style-type: none;
-    padding-left: 0;
 }
 
 .mainItens ul li {
     margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.mainItens ul a li {
+    font-size: 20px;
 }

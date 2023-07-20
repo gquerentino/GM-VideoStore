@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+.homepage-container{
+    display: flex;
+    box-sizing: content-box;
+}
+
+.main-content{
+    width: 75vw;
+    border-right: 2px solid #ebf1ff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    width: 91vw;
+    height: 8%;
+}
+
+.header a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #2f3d64;
+}
+
+.header a:hover{
+    color: #3c4a6e;
+}
+
+.menu-itens{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.main-banner{
+    display: flex;
+    align-items: end;
+    background-image: url("https://nerdophiles.files.wordpress.com/2014/09/spn-banner.jpg?w=1200");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 49vh;
+    width: 92%;
+    margin: 10px 50px 10px 50px;
+}
+
+.main-banner button{
+    border: none;
+}
+
+.watch-button {
+    width: 250px;
+    font-size: 30px;
+    color: white;
+    height: 70px;
+    background-color: #e71d60;
+    margin: 10px 10px 70px 100px;
+}
+
+.add-button{
+    width: 80px;
+    font-size: 30px;
+    height: 70px;
+    background-color: #585f61;
+    color: white;
+    margin: 10px 10px 70px 5px;
+}
